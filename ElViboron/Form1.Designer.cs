@@ -39,7 +39,7 @@
             this.pbDibujo.Dock = System.Windows.Forms.DockStyle.Fill;
             this.pbDibujo.Location = new System.Drawing.Point(0, 0);
             this.pbDibujo.Name = "pbDibujo";
-            this.pbDibujo.Size = new System.Drawing.Size(1904, 1061);
+            this.pbDibujo.Size = new System.Drawing.Size(1364, 749);
             this.pbDibujo.TabIndex = 0;
             this.pbDibujo.TabStop = false;
             // 
@@ -53,7 +53,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1904, 1061);
+            this.ClientSize = new System.Drawing.Size(1364, 749);
             this.Controls.Add(this.pbDibujo);
             this.Name = "Form1";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;

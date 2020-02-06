@@ -23,6 +23,7 @@ namespace ElViboron
         Graphics g;
         int finalx = 10, finaly = 10;
         bool cancelar = false;
+        int tipoJuego = 2;
         public Form1()
         {
             InitializeComponent();
@@ -73,10 +74,18 @@ namespace ElViboron
                     break;
             }
 
-            pintarTodasLasParedes();
+            
             pintarComida();
             chocarConmigo();
-            chocarConParedes();
+            if(tipoJuego == 1)
+            {
+                pintarTodasLasParedes();
+                chocarConParedes();
+            }
+            else
+            {
+                clasico();
+            }
             cancelar = false;
         }
 
@@ -88,6 +97,30 @@ namespace ElViboron
                 timer.Stop();
                 MessageBox.Show("Perdiste");
                 reiniciarJuego();
+            }
+        }
+
+        private void clasico()
+        {
+            if (ar.ElementAt(0).x <= 0 || ar.ElementAt(0).x >= finalx
+                || ar.ElementAt(0).y <= 0 || ar.ElementAt(0).y >= finaly)
+            {
+                if (ar.ElementAt(0).x > finalx)
+                {
+                    ar.ElementAt(0).x = 0;
+                }
+                else if (ar.ElementAt(0).x < 0)
+                {
+                    ar.ElementAt(0).x = finalx;
+                }
+                else if (ar.ElementAt(0).y > finaly)
+                {
+                    ar.ElementAt(0).y = 0;
+                }
+                else if (ar.ElementAt(0).y < 0)
+                {
+                    ar.ElementAt(0).y = finaly;
+                }
             }
         }
 

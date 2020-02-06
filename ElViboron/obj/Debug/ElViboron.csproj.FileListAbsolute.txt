@@ -36,3 +36,13 @@ C:\Users\Alumno.CC2-22\Downloads\Snake-C--master\Snake-C--master\ElViboron\obj\D
 C:\Users\Alumno.CC2-22\Downloads\Snake-C--master\Snake-C--master\ElViboron\obj\Debug\ElViboron.csproj.GenerateResource.cache
 C:\Users\Alumno.CC2-22\Downloads\Snake-C--master\Snake-C--master\ElViboron\obj\Debug\ElViboron.exe
 C:\Users\Alumno.CC2-22\Downloads\Snake-C--master\Snake-C--master\ElViboron\obj\Debug\ElViboron.pdb
+C:\Users\Muski\source\repos\Snake-C--master\ElViboron\bin\Debug\ElViboron.exe.config
+C:\Users\Muski\source\repos\Snake-C--master\ElViboron\bin\Debug\ElViboron.exe
+C:\Users\Muski\source\repos\Snake-C--master\ElViboron\bin\Debug\ElViboron.pdb
+C:\Users\Muski\source\repos\Snake-C--master\ElViboron\obj\Debug\ElViboron.csprojAssemblyReference.cache
+C:\Users\Muski\source\repos\Snake-C--master\ElViboron\obj\Debug\ElViboron.Form1.resources
+C:\Users\Muski\source\repos\Snake-C--master\ElViboron\obj\Debug\ElViboron.Properties.Resources.resources
+C:\Users\Muski\source\repos\Snake-C--master\ElViboron\obj\Debug\ElViboron.csproj.GenerateResource.cache
+C:\Users\Muski\source\repos\Snake-C--master\ElViboron\obj\Debug\ElViboron.csproj.CoreCompileInputs.cache
+C:\Users\Muski\source\repos\Snake-C--master\ElViboron\obj\Debug\ElViboron.exe
+C:\Users\Muski\source\repos\Snake-C--master\ElViboron\obj\Debug\ElViboron.pdb
